@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=New+Order&family=Poppins:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: "Poppins", sans-serif;
+  background-color: #F9F9F9;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 6px 0px 6px; ;
+}
+
+nav{
+  background-color: #f9f9f9e0 ;
+  backdrop-filter: blur(8px);
+}
+
+h1 {
+  font-family: "New Order", "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #2D2D2D;
+}
+
+h2 {
+  font-family: "New Order", "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #2D2D2D;
+}
+
+
+h3{
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 700;
+  color: #E75C1A;
+  font-size: 14px;
+}
+
+.h1-b, .h2-b{
+ color: #0D7482;  
+}
+
+p{
+  font-family: "Poppins", sans-serif;
+  font-weight:normal;
+  font-size: 16px;
+}
+
+.btn1-mpf{
+  background-color: #29725C;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+}
+.btn1-mpf:hover{
+  background-color: #1C493D;
+}
+.btn2-mpf{
+  background-color: none;
+  color: #29725C;
+  font-weight: 400;
+  font-size: 16px;
+}
+.btn2-mpf:hover{
+  background-color: #BAE0CE;
+  color: #1C493D;
+}
+
+ @media screen {
+  
+ }
