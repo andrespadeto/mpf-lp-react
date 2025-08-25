@@ -12,7 +12,7 @@ const images: { [key: string]: string } = {
   "5": ForWho5,
 };
 
-export function CardForWho({ CardId, description }: { CardId: string, description: string }) {
+export function CardForWho({ CardId, description }: { CardId: number, description: string }) {
     return (
         <div className="w-[200px] h-[300px] p-2 flex flex-col items-center text-center">
             <img src={images[CardId]} alt={`Card ${CardId}`} className="w-20 h-20 mb-4"/>
