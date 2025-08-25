@@ -1,8 +1,8 @@
-import ForWho1 from '../../assets/ForWho1.svg';
-import ForWho2 from '../../assets/ForWho2.svg';
-import ForWho3 from '../../assets/ForWho3.svg';
-import ForWho4 from '../../assets/ForWho4.svg';
-import ForWho5 from '../../assets/ForWho5.svg';
+import ForWho1 from '@/assets/ForWho1.svg';
+import ForWho2 from '@/assets/ForWho2.svg';
+import ForWho3 from '@/assets/ForWho3.svg';
+import ForWho4 from '@/assets/ForWho4.svg';
+import ForWho5 from '@/assets/ForWho5.svg';
 
 const images: { [key: string]: string } = {
   "1": ForWho1,
