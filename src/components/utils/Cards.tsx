@@ -14,7 +14,7 @@ const images: { [key: string]: string } = {
 
 export function CardForWho({ CardId, description }: { CardId: number, description: string }) {
     return (
-        <div className="w-[200px] h-[300px] p-2 flex flex-col items-center text-center">
+        <div className="w-[200px] h-[250px] p-2 flex flex-col items-center text-center">
             <img src={images[CardId]} alt={`Card ${CardId}`} className="w-20 h-20 mb-4"/>
             <p style={{fontSize: '14px'}}>{description}</p>
         </div>

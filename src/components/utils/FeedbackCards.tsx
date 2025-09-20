@@ -13,7 +13,7 @@ const images: { [key: string]: string } = {
 
 export function FeedbackCards({FdbkId}: {FdbkId: number}) {
     return (
-        <div className="w-[300px] pl-[3px] pr-[3px] flex flex-col items-center text-center">
+        <div className="w-[340px] pl-[3px] pr-[3px] flex flex-col items-center text-center">
             <img src={images[FdbkId]} alt={`Fdbk${FdbkId}`}/>
 
         </div>
